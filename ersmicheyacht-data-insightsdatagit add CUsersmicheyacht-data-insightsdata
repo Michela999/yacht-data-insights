@@ -1,0 +1,77 @@
+[33mcommit a7999ae3efb3a8268c1c9b61d1456214791d4188[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Michela999 <michelad.monteverde@gmail.com>
+Date:   Mon Feb 24 16:41:18 2025 +0100
+
+    Update .gitignore to track data folder
+
+ .gitignore | 3 [31m---[m
+ 1 file changed, 3 deletions(-)
+
+[33mcommit dcd24bb01f25c00353d8c1299dd5fc561cfca00a[m
+Author: Michela999 <michelad.monteverde@gmail.com>
+Date:   Mon Feb 24 16:20:33 2025 +0100
+
+    Add .gitignore file
+
+ .gitignore | 28 [32m++++++++++++++++++++++++++++[m
+ 1 file changed, 28 insertions(+)
+
+[33mcommit a4547ff8a8e4a0e22ca84275f516fc0a18205d74[m
+Author: Michela999 <michelad.monteverde@gmail.com>
+Date:   Mon Feb 24 16:16:36 2025 +0100
+
+    Restore .gitignore, LICENSE, and README.md files
+
+ .gitignore. | 28 [31m----------------------------[m
+ 1 file changed, 28 deletions(-)
+
+[33mcommit a03a604413c68f6597e65af27851c2b0a3a43269[m
+Author: Michela <michelad.monteverde@gmail.com>
+Date:   Thu Feb 13 18:01:00 2025 +0100
+
+    Add MIT License
+    
+    Added the MIT License to the repository to define the terms under which the code can be used, modified, and distributed.
+
+ LICENSE | 21 [32m+++++++++++++++++++++[m
+ 1 file changed, 21 insertions(+)
+
+[33mcommit b798c356875628912ec4236d4a0ef22c8ad303fa[m
+Author: Michela <michelad.monteverde@gmail.com>
+Date:   Thu Feb 13 17:55:38 2025 +0100
+
+    Create .gitignore for Python Project
+    
+    Adding a .gitignore file to ensure that unnecessary files such as Python bytecode, virtual environments, and IDE-specific files are excluded from version control. This helps maintain a clean repository and avoid versioning unwanted files in the project.
+
+ .gitignore. | 28 [32m++++++++++++++++++++++++++++[m
+ 1 file changed, 28 insertions(+)
+
+[33mcommit a618412157ae75badfa36341ab2aba48518bc705[m
+Author: Michela <michelad.monteverde@gmail.com>
+Date:   Thu Feb 13 17:11:23 2025 +0100
+
+    Add initial project README
+    
+    The Yacht Data Insights & Prediction project aims to leverage data analysis and machine learning techniques to provide actionable insights for companies in the yachting industry. By analyzing historical yacht sales, weather conditions, and route information, the project focuses on predicting key trends and optimizing maintenance operations to reduce costs and waste.
+    
+    Key features of the project include:
+    
+    Data Preprocessing: Handling missing data, scaling numerical values, and encoding categorical variables to make the dataset ready for modeling.
+    Feature Engineering: Creating new features, such as price per meter and seasonal trends, to improve the predictive power of the model.
+    Model Development: Applying regression techniques, such as Linear Regression and Random Forest, to predict yacht prices and sales trends. If relevant, classification models like Logistic Regression and SVM are used to predict demand categories (e.g., High Demand vs. Low Demand).
+    Advanced Techniques: Utilizing model optimization methods, such as GridSearchCV, to fine-tune hyperparameters and improve accuracy. Additionally, advanced algorithms like XGBoost are explored for better performance.
+    Real-World Insights: The models offer predictions on the best times to buy and sell yachts, seasonal demand trends, and potential savings on maintenance, making the model useful for decision-making and strategic planning.
+    Tech Stack:
+    
+    Python: The core language used for data analysis, model training, and prediction.
+    Pandas: Used for data manipulation and cleaning.
+    Scikit-learn: Used for building and evaluating machine learning models.
+    Matplotlib & Seaborn: Employed for data visualization and identifying patterns in the data.
+    XGBoost: Used for advanced model optimization and boosting techniques.
+    Project Outcome: The end result is a predictive model capable of forecasting trends, which can be used to optimize yacht sales strategies and maintenance schedules. The model's accuracy is validated through various performance metrics, and its insights are presented in a way that can directly influence business decisions.
+    
+    This project also has eco-friendly implications, as it helps companies better plan sales and maintenance, ultimately reducing unnecessary resource usage and promoting sustainability in the yachting industry.
+
+ README.md | 58 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 58 insertions(+)
