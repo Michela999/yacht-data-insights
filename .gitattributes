@@ -3,5 +3,6 @@ data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_detections_footprints_2024
 data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_detections_footprints_202411.csv filter=lfs diff=lfs merge=lfs -text
 data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_detections_footprints_202412.csv filter=lfs diff=lfs merge=lfs -text
 data/raw/sar[[:space:]]vessel[[:space:]]detection/*.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/*.csv filter=lfs diff=lfs merge=lfs -text
 data/raw/sar_detections_footprints_202410.csv !text !filter !merge !diff
 data/raw/sar_detections_footprints_202412.csv !text !filter !merge !diff
