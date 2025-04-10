@@ -1,2 +1,16 @@
+<<<<<<< HEAD
 data/raw/* filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+=======
+data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_vessel_detections_pipev20231026_202410.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_detections_footprints_202410.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_detections_footprints_202411.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/sar[[:space:]]vessel[[:space:]]detection/sar_detections_footprints_202412.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/sar[[:space:]]vessel[[:space:]]detection/*.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/*.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/sar_detections_footprints_202410.csv !text !filter !merge !diff
+data/raw/sar_detections_footprints_202412.csv !text !filter !merge !diff
+data/raw/CVP_ports_202411.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/CVP_loitering_202411.csv filter=lfs diff=lfs merge=lfs -text
+data/raw/CVP_encounters_202411.csv filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 4405ec7d02459eab05150c716d23c3977379a082
