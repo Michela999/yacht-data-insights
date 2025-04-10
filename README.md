@@ -22,13 +22,17 @@ The goal is to develop a predictive model that supports:
 
 ## 📂 **Project Structure**
 ```
-📁 yacht-data-insights  
- ├── 📂 data  # Raw datasets (sales, weather, routes)  
- ├── 📂 notebooks  # Jupyter Notebooks for data exploration and analysis  
- ├── 📂 models  # Machine learning models and saved predictions  
- ├── 📜 README.md  # Project documentation  
+yacht-data-insights/  
+ ├── 📂 ..bfg-report/2025-03-15  # Report folder with results and models  
+ ├── 📂 data/  # Raw datasets (sales, weather, routes)
+ │    ├── 📂 raw/  # Folder containing dataset files
+ │    └── 📜 data_description.md  # Description of datasets
+ ├── 📜 .gitattributes  # Git attributes file
+ ├── 📜 .gitignore  # Git ignore file
+ ├── 📜 LICENSE  # License file
+ ├── 📜 README.md  # Project documentation (this file)
+  
 ```
-
 ### 📈 **Data**
 This project uses multiple datasets related to yacht sales, weather conditions, and routes. The datasets are cleaned, preprocessed, and analyzed to derive useful insights and predictions.
 
