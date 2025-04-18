@@ -21,16 +21,32 @@ The goal is to develop a predictive model that supports:
 ---
 
 ## 📂 **Project Structure**
-```
-yacht-data-insights/  
- ├── 📂 ..bfg-report/2025-03-15  # Report folder with results and models  
- ├── 📂 data/  # Raw datasets (sales, weather, routes)
- │    ├── 📂 raw/  # Folder containing dataset files
- │    └── 📜 data_description.md  # Description of datasets
- ├── 📜 .gitattributes  # Git attributes file
- ├── 📜 .gitignore  # Git ignore file
- ├── 📜 LICENSE  # License file
- ├── 📜 README.md  # Project documentation (this file)
+yacht-data-insights/
+├── 📂 ..bfg-report/2025-03-15 # Report folder with results and models
+├── 📂 data/ # Raw datasets (sales, weather, routes) │ 
+├── 📂 raw/ # Folder containing dataset files │ 
+└── 📜 data_description.md # Description of datasets 
+├── 📂 notebooks/ # Jupyter Notebooks folder for a modular and reproducible workflow │ 
+├── 📜 01_project_introduction.ipynb # Project overview, goals, datasets, and research questions │
+├── 📜 02_data_preprocessing.ipynb # Data loading, cleaning, encoding, splitting, and scaling │ 
+├── 📜 03_feature_engineering_and_exploration.ipynb # Feature creation and exploratory data analysis (EDA) │ 
+└── 📜 04_modeling.ipynb # Regression/classification modeling and evaluation
+├── 📜 .gitattributes # Git attributes file 
+├── 📜 .gitignore # Git ignore file
+├── 📜 LICENSE # License file 
+├── 📜 README.md # Project documentation (this file)
+
+### Key sections:
+- **`..bfg-report/2025-03-15/`**: This folder contains your results, models, and other related reports.
+- **`data/`**: Holds your datasets, with a subfolder for raw data and a description file.
+- **`notebooks/`**: Contains Jupyter Notebooks for a modular and reproducible workflow:
+  - **`01_project_introduction.ipynb`**: Project overview, goals, datasets, and research questions.
+  - **`02_data_preprocessing.ipynb`**: Data loading, cleaning, encoding, splitting, and scaling.
+  - **`03_feature_engineering_and_exploration.ipynb`**: Feature creation and exploratory data analysis (EDA).
+  - **`04_modeling.ipynb`**: Regression/classification modeling and evaluation.
+- **`.gitattributes` & `.gitignore`**: Configuration files for Git management.
+- **`LICENSE` & `README.md`**: Project's licensing and docume
+
   
 ```
 ### 📈 **Data**
